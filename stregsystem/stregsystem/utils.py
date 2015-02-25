@@ -7,10 +7,11 @@ def grouper(n, iterable, filler='x'):
 
 
 def phone_letter_converter(phone_number):
-        from string import ascii_lowercase, digits
         phone_number = phone_number.lower()
-        for letters, digit in zip(grouper(3, ascii_lowercase),
-                                  digits[1:]):
+        letters = "abc def ghi jkl mno pqrs tuv wxyz"
+
+        for letters, digit in zip(letters.split(),
+                                  range(2, 10)):
             for l in letters:
-                phone_number = phone_number.replace(l, digit)
+                phone_number = phone_number.replace(l, str(digit))
         return phone_number
