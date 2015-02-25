@@ -53,12 +53,8 @@ class Member(models.Model):
 
     @phone_number.setter
     def phone_number(self, new_phone_number):
-        sep = [' ', '-', '_', '+']
-
-        # wait, they moved reduce and said it is unreadable!? :(
-        for s in sep:
-            new_phone_number = new_phone_number.replace(s, '')
-
+        new_phone_number = utils.remove_seperators(new_phone_number,
+                                                   [' ', '-', '_', '+'])
         new_phone_number = utils.phone_letter_converter(new_phone_number)
         self._phone_number = new_phone_number
 
