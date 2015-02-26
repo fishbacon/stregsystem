@@ -103,10 +103,10 @@ $ python manage.py runserver
 If you point your browser to `http://localhost:8000/` you should now see the Stregsystem. Happy hacking!
 
 ### Writing Your First Pull Request
-Instead of re-writing something that already exists, we refer to the Django contributing guidelines, specifically: https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/. You will of course need to replace the Django repository URL with your own, but otherwise, the process is exactly the same. If you have any questions, feel free to poke anyone from FIT - wel are happy to help!
+Instead of re-writing something that already exists, we refer to the Django contributing guidelines, specifically: https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/working-with-git/. You will of course need to replace the Django repository URL with your own, but otherwise, the process is exactly the same. If you have any questions, feel free to poke anyone from FIT - wel are happy to help!
 
 ## Coding Style
-We roughly adhere to the Django coding style, see https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/.
+We roughly adhere to the Django coding style, see https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/coding-style/.
 
 Two linting tools are being run by the build server:
 
