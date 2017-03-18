@@ -21,7 +21,7 @@ BASE_DIR = os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)
 SECRET_KEY = 'not-very-secret'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = TEMPLATE_DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
