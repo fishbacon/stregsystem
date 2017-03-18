@@ -1,5 +1,5 @@
 from django.test import TestCase
-from stregsystem import utils
+from fembers import utils
 
 
 class TestGrouper(TestCase):

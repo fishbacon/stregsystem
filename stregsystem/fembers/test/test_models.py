@@ -1,5 +1,5 @@
 from django.test import TestCase
-from stregsystem import models
+from fembers import models
 from django.core.exceptions import ValidationError
 
 
