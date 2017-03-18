@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
 BASE_DIR = os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)
 
 
@@ -40,6 +41,9 @@ THIRD_PARTY_APPS = ()
 
 PROJECT_APPS = (
     'stregsystem',
+    'fembers',
+    'catalog',
+    'finance',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
